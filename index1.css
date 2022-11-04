@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body 
 {
-    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 0%;
     margin: 0%;
 }
 
@@ -8,27 +12,32 @@ body
 nav
 {
     position: absolute;
+    left: 400px;
     display: flex;
     width: 60%;
     max-height:  150px;
-    top: 50px;
+    top: 2px;
     justify-content: space-around;
     align-items: center;
+    width: 70%
 }
 
 
 header 
 {
-    background-image: url("/WF3-2020-main/img/banner.jpg");
-    min-height: 96 vh;
+    position: relative;
+    background-image: url("img/banner.jpg");
+    min-height:  98vh;
 }
 
 
-.navtext 
+.navtext
 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 50%;
+    list-style: none;
    
 }
 
@@ -62,11 +71,42 @@ header
 }
 
 
-.flex {
+.flex 
+{
     display: flex;
     flex-direction: row;
 }
 
-.navigation {
+.navigation 
+{
+    display: flex;
+    justify-content: space-around;
+}*
+
+.textheader 
+{
+   position: absolute;
+   top: 35%;
+   left: 25%;
+}
+
+
+.bienvenue {
+    color:  #afe223 ;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight:400
+}
+
+.click {
+    font-size: 25px;
+}
+
+.course {
+    
+    display: flex;
     justify-content: space-around;
 }
